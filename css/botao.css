@@ -1,0 +1,31 @@
+.botao{
+    width: 85%;
+    
+    font-family: 'Concert One', cursive;
+    font-size: 2.125rem;
+    color: #2F2325;
+    text-decoration: none;
+    text-align: center;
+
+    background-color: #FFF2E7;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    padding: 5px;
+
+}
+@media (min-width:600px){
+    .botao{
+        height: 3rem;
+    }
+}
+
+.botao:hover{
+    box-shadow: 1px 1px 20px rgba(255, 242, 231, 0.7);
+}
+
+.botao-enviar{
+    margin-bottom: 30px;
+}

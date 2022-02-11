@@ -1,0 +1,38 @@
+.inputField{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 380px;
+    margin: 60px auto;
+    border-bottom: 2px solid #fff;
+}
+
+.inputField input{
+    width: 220px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 2.5rem;
+}
+
+.answer{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+@media (min-width:600px) {
+    .inputField{
+        padding: 0 20px;
+        border-bottom: none;
+        border-right: 2px solid #fff;
+    }
+    .answer{
+        min-width: 300px;
+    }
+}

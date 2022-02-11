@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+
+    <link rel="stylesheet" href="/Desafio-1/css/base.css">
+    <link rel="stylesheet" href="/Desafio-1/css/inputs.css">
+    <link rel="stylesheet" href="/Desafio-1/css/form.css">
+    <link rel="stylesheet" href="/Desafio-1/css/botao.css">
+    <link rel="stylesheet" href="/Desafio-1/css/lista.css">
+</head>
+<body>
+    <main>
+        <h1>Desafio 2</h1>
+        <article class="form form-desafio">
+            <section class="inputField ">
+                <h2 class="texto titulo">Digite o valor do troco</h2>
+              
+                <label for="troco" class="texto">Valor do troco</label>
+                <input type="number" name="age" id="troco" min="6" max="99" aria-label="valor do troco">
+    
+                <button data-button class="botao botao-enviar">Calcular</button>
+            </section>
+    
+<!-- A sessão Resultado será renderizada a cada entrada de um novo valor -->
+            <section data-answer class="answer" >
+                <h2 class="texto titulo">Resultado</h2>
+                <table class="table">
+                    <thead >
+                        <tr class="table__titulo">
+                            <td class="texto">Valor da Moeda</td>
+                            <td class="texto">Quantidade</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="list__atributo">R$1,00</span></td>
+                            <td><span class="list__atributo-output"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="list__atributo">R$0,50</span></td>
+                            <td><span class="list__atributo-output"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="list__atributo">R$0,25</span></td>
+                            <td><span class="list__atributo-output"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="list__atributo">R$0,10</span></td>
+                            <td><span class="list__atributo-output"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="list__atributo">R$0,05</span></td>
+                            <td><span class="list__atributo-output"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="list__atributo">R$0,01</span></td>
+                            <td><span class="list__atributo-output"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+    </main>
+
+    <script src="/Desafio-1/js/View/View.js"></script>
+    <script src="/Desafio-1/js/View/ViewCoins.js"></script>
+    <script src="/Desafio-1/js/Model/Coins.js"></script>
+    <script src="/Desafio-1/js/Controller/desafio2.js"></script>
+    
+</body>
+</html>

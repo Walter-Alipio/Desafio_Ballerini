@@ -1,0 +1,34 @@
+.form{
+    width: 70vw;
+    max-width: 700px;
+    height: auto;
+
+    background-color: #483636;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.form-home{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.texto{
+    color: #FFF2E7;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.titulo{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
+@media (min-width: 600px){
+    .form-desafio{
+        display: flex;
+    }
+}

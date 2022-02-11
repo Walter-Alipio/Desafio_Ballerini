@@ -1,0 +1,13 @@
+marrom-escuro: #2F2325
+marrom-claro: #483636
+
+branco-clarinho-input: rgba(255, 242, 231, 0.7)
+marrom-clarinho-botao: #FFF2E7
+
+Fonte
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet"> 
+
+font-family: 'Concert One', cursive;

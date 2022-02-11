@@ -1,0 +1,19 @@
+.list{
+    list-style: none;
+    align-self: flex-start;
+}
+.list__atributo{
+    color: #97D4D9;
+}
+.list__atributo-output{
+    color: #EFC764;
+}
+.table{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.table__titulo{
+    border-right: #fff;
+    margin-bottom: 2px solid #fff;
+}

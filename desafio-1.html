@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+
+    <link rel="stylesheet" href="/Desafio-1/css/base.css">
+    <link rel="stylesheet" href="/Desafio-1/css/inputs.css">
+    <link rel="stylesheet" href="/Desafio-1/css/form.css">
+    <link rel="stylesheet" href="/Desafio-1/css/botao.css">
+    <link rel="stylesheet" href="/Desafio-1/css/lista.css">
+</head>
+<body>
+    <main>
+        <h1>Desafio 1</h1>
+        <article class="form form-desafio">
+            <section class="inputField ">
+                <h2 class="texto titulo">Digite os dados do usuário</h2>
+                <label for="name" class="texto">Nome</label>
+                <input type="text" id="name" aria-label="nome">
+                <label for="age" class="texto">Idade</label>
+                <input type="number" name="age" id="age" min="6" max="99" aria-label="Idade">
+                <label for="language" class="texto">Skills</label>
+                <input type="text" id="language">
+                <button data-button class="botao botao-enviar">Cadastrar Usuário</button>
+            </section>
+    
+            <section data-answer class="answer" >
+                <h2 class="texto titulo">Resultado</h2>
+            </section>
+        </article>
+    </main>
+    <script src="/Desafio-1/js/Model/UserList.js"></script>
+    <script src="/Desafio-1/js/View/View.js"></script>
+    <script src="/Desafio-1/js/View/viewList.js"></script>
+    <script src="/Desafio-1/js/Controller/desafio1.js"></script>
+    <script src="/Desafio-1/js/Model/User.js"></script>
+</body>
+</html>
