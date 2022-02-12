@@ -1,5 +1,5 @@
 # Desafio_Ballerini
-##Não possui nenhuma dependência para instalação.##
+##Não possui nenhuma dependência para instalação.
 
 Desafio proposto na comunidade Ballerini do discord.
 
