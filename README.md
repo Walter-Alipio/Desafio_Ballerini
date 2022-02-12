@@ -10,7 +10,7 @@ Modelo no Figma:
 
 Juntei o desafio Extra para criação de todas ás páginas usando HTML 5 e CSS 3. Também busquei aplicar o conceito de MVC (Model,View,Controll) e o paradigma de orientação a objetos no JavaScript.
 
-
+Para retornar a HOME, basta clicar no logo no topo da página.
 
 Página Home:
 <img src="assets/Screenshot from 2022-02-12 11-02-22.png">
