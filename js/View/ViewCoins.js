@@ -8,8 +8,7 @@ class ViewCoins extends View{
         <table class="table">
             <thead >
                 <tr class="table__titulo">
-                    <td class="texto">Valor da Moeda</td>
-                    <td class="texto">Quantidade</td>
+                    <td class="texto">Quantidade de Moedas</td>
                 </tr>
             </thead>
             <tbody>

@@ -16,9 +16,4 @@ class ViewList extends View{
             `
         }).join('')}`
     }
-
-    update(model){
-        this._element.innerHTML = this.template(model);
-    }
-
 }

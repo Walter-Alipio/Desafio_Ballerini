@@ -9,6 +9,9 @@ button.addEventListener('click',()=>{
     const name = document.querySelector('#name');
     const age = document.querySelector('#age');
     const language = document.querySelector('#language');
+    if(name.value === "" || age.value === "" || language.value === ""){
+        return alert("Preencha todos os campos!");
+    }
     
     const user = new User(name.value,age.value,language.value);
     console.log(user);
