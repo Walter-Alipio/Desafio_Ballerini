@@ -9,7 +9,7 @@ class Text{
     }
     countOfWords(){
         const numberOfWords = [...this._text.split(/[\s,]+/)];//expressão reculagar que retira "," e " "
-        return numberOfWords.length - 1;
+        return numberOfWords.length ;
     }
     countOfPhrases(){
         const phrase = [...this._text.split(/[.!;:?]/g)]//expressao regular para reconhecer a puntuação

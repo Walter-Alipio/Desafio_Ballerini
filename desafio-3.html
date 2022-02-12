@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 3</title>
 
-    <link rel="stylesheet" href="/Desafio-1/css/base.css">
-    <link rel="stylesheet" href="/Desafio-1/css/cabecalho.css">
-    <link rel="stylesheet" href="/Desafio-1/css/form.css">
-    <link rel="stylesheet" href="/Desafio-1/css/inputs.css">
-    <link rel="stylesheet" href="/Desafio-1/css/botao.css">
-    <link rel="stylesheet" href="/Desafio-1/css/lista.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/inputs.css">
+    <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/lista.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <a href="/Desafio-1/index.html"><img src="/Desafio-1/assets/BALLERINI.svg" alt="Logo Ballerini">
+        <a href="index.html"><img src="assets/BALLERINI.svg" alt="Logo Ballerini">
         </a>
     </header>
 
@@ -28,7 +28,7 @@
             <section class="inputField ">
                 <h2 class="texto titulo">Digite um parágrafo</h2>
 
-                <label for="texto" class="texto">Texto</label>
+                <label for="texto" class="texto">Utilize pontuação*</label>
                 <textarea name="texto" id="texto" cols="30" rows="10" maxlength="350"></textarea>
 
                 <button data-button class="botao botao-enviar">Calcular</button>
@@ -36,14 +36,19 @@
 
             <section data-answer class="answer" >
                 <h2 class="texto titulo">Resultado</h2>
+                <ul class="list">
+                    <li><span class="list__atributo">Characteres:</span> <span class="list__atributo-output"></span></li>
+                    <li><span class="list__atributo">Palavras:</span> <span class="list__atributo-output"></span></li>
+                    <li><span class="list__atributo">Frases:</span> <span class="list__atributo-output"></span></li>
+                </ul>
             </section>
 
         </article>
     </main>
-    <script src="/Desafio-1/js/Controller/desafio3.js"></script>
-    <script src="/Desafio-1/js/View/View.js"></script>
-    <script src="/Desafio-1/js/View/ViewText.js"></script>
-    <script src="/Desafio-1/js/Model/Text.js"></script>
+    <script src="js/Controller/desafio3.js"></script>
+    <script src="js/View/View.js"></script>
+    <script src="js/View/ViewText.js"></script>
+    <script src="js/Model/Text.js"></script>
 </body>
 
 </html>
