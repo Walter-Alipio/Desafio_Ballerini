@@ -17,6 +17,9 @@
     border-radius: 15px;
     height: 2.5rem;
 }
+.inputField input{
+    outline-style: none;
+}
 
 .answer{
     border: none;

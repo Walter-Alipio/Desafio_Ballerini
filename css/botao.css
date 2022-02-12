@@ -11,11 +11,16 @@
     line-height: 2.5rem;
 
     background-color: #FFF2E7;
-
     box-sizing: border-box;
-
     border: none;
     border-radius: 10px;
+    
+    background-image: linear-gradient(#2F2325,#2F2325);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position: right;
+    
+    transition: background-size 500ms;
 
     cursor: pointer;
     padding-bottom: 20px;
@@ -29,8 +34,9 @@
 
 .botao:hover{
     box-shadow: 1px 1px 20px rgba(255, 242, 231, 0.7);
-    background-color: #2F2325;
     color: #FFF2E7;
+    background-size: 100% 100%;
+    background-position-x: left;
 }
 
 .botao-enviar{
