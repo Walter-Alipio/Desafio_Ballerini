@@ -20,7 +20,10 @@
 .inputField input{
     outline-style: none;
 }
-.inputField input,textarea:focus{
+.inputField input:focus{
+    box-shadow: 1px 1px 20px rgba(245, 232, 117, 0.7);
+}
+.inputField textarea:focus{
     box-shadow: 1px 1px 20px rgba(245, 232, 117, 0.7);
 }
 
